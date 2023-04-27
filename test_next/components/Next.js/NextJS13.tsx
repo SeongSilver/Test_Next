@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function SEOManual() {
+function NextJS13() {
   const settings = {
     dots: true,
     infinite: true,
@@ -13,13 +13,13 @@ function SEOManual() {
   };
 
   return (
-    <div>
+    <div className="w-full h-[65vh]">
       <Slider {...settings}>
-        <div className="slider text-2xl">메뉴얼인디</div>
+        <div className="slider text-2xl">업데이트 내용</div>
         <div className="slider">출처</div>
       </Slider>
     </div>
   );
 }
 
-export default SEOManual;
+export default NextJS13;
