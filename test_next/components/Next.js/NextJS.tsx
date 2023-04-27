@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
-function SEOManual() {
+function NextJS() {
   const settings = {
     dots: true,
     infinite: true,
@@ -13,15 +13,14 @@ function SEOManual() {
   };
 
   return (
-    <div>
+    <div className="w-full h-[65vh] bg-slate-400">
       <Slider {...settings}>
-        <div className="slider text-2xl">메뉴얼인디</div>
+        <div className="slider text-2xl">Next.js?</div>
         <div className="slider"> 22222 </div>
-        <div className="slider">33</div>
         <div className="slider">44</div>
       </Slider>
     </div>
   );
 }
 
-export default SEOManual;
+export default NextJS;

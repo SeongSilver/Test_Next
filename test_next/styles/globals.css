@@ -28,10 +28,9 @@ body {
 
 /* SEO설명 카테고리버튼 */
 .categoryBtn {
-  @apply h-[30px] text-xl font-semibold cursor-pointer;
+  @apply h-[30px] text-xl font-semibold cursor-pointer hover:text-white ease-in-out duration-300;
 }
 
-/* Slide div item  */
-.slideCard {
-  @apply w-[100%] h-[40vh] bg-slate-800 bg-contain bg-no-repeat flex-none;
+.slider {
+  @apply h-[60vh] p-16 overflow-hidden;
 }
