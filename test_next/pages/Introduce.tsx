@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 function Introduce() {
   return (
-    <div className="ax-auto flex flex-col">
+    <div className="mx-auto flex flex-col">
       <div className="h-screen">
         <div>
           <h1 id='intro' className="text-3xl w-fit px-4 py-2 bg-gray-100 rounded-full tracking-tight">
