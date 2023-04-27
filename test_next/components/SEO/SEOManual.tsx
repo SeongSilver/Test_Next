@@ -1,23 +1,13 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+import SliderContainer from '../common/SliderContainer';
 
 function SEOManual() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
     <div>
-      <Slider {...settings}>
+      <SliderContainer>
         <div className="slider text-2xl">메뉴얼인디</div>
         <div className="slider">출처</div>
-      </Slider>
+      </SliderContainer>
     </div>
   );
 }
