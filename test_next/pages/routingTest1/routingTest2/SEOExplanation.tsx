@@ -26,9 +26,11 @@ function SEOExplain() {
           SEO방법
         </span>
       </div>
-      <main className="mt-4">
-        {category === 'introduce' ? <SEOIntroduce /> : <SEOManual />}
-      </main>
+      <div className="flex justify-center">
+        <main className="mt-4">
+          {category === 'introduce' ? <SEOIntroduce /> : <SEOManual />}
+        </main>
+      </div>
     </div>
   );
 }

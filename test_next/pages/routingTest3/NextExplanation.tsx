@@ -24,9 +24,11 @@ function NextExplain() {
           Next.js v.13 업데이트
         </span>
       </div>
-      <main className="mt-4">
-        {category === 'next' ? <NextJS /> : <NextJS13 />}
-      </main>
+      <div className="flex justify-center">
+        <main className="mt-4">
+          {category === 'next' ? <NextJS /> : <NextJS13 />}
+        </main>
+      </div>
     </div>
   );
 }

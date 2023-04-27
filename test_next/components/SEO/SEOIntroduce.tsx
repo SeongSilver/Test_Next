@@ -68,16 +68,13 @@ function SEOIntroduce() {
           <Image
             src="/image/SEO/seo.png"
             alt="SEO 설명"
-            width={720}
+            width={600}
             height={540}
           />
           <br />
           <p>
             검색 결과에서 얼마나 노출이 잘 되느냐의 문제는 마케팅으로 이어진다
-            <br />
-            =
-            <br />
-            검색 순위 랭킹 올리기
+            &emsp;=&emsp; 검색 순위 랭킹 올리기
           </p>
         </div>
       </div>
