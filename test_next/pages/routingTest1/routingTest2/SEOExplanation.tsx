@@ -13,7 +13,7 @@ function SEOExplain() {
   };
 
   return (
-    <div className="w-full h-full p-48">
+    <div className="w-full h-full p-24">
       <header className="w-full text-3xl font-bold">SEO란?</header>
       <div className="mt-16 flex w-full justify-around">
         <span className="categoryBtn" onClick={changeIntroduce}>

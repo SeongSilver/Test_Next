@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import Slide from '../common/Slide';
 
 function SEOManual() {
-  return <div>사용방법인디</div>
+  return (
+    <div>
+      ddd
+      <Slide />
+    </div>
+  );
 }
 
-export default SEOManual
+export default SEOManual;

@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+/* SEO설명 카테고리버튼 */
 .categoryBtn {
-  @apply h-[30px] text-xl font-semibold;
+  @apply h-[30px] text-xl font-semibold cursor-pointer;
+}
+
+/* Slide div item  */
+.slideCard {
+  @apply w-[100%] h-[40vh] bg-slate-800 bg-contain bg-no-repeat flex-none;
 }

@@ -1,7 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Slide from '../common/Slide';
 
 function SEOIntroduce() {
-  return <div>소개인디</div>
+  return (
+    <div>
+      <Slide />
+    </div>
+  );
 }
 
-export default SEOIntroduce
+export default SEOIntroduce;
