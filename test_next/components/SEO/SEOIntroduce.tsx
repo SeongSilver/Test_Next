@@ -53,7 +53,7 @@ function SEOIntroduce() {
               </section>
             </div>
           </div>
-          <p className="mt-4 text-xl text-center">
+          <p className="mt-4 text-lg text-center">
             검색결과에서 광고를 클릭하는 비율은 최대 3%에 불과하다.&emsp;-Google
             Ads-
           </p>
