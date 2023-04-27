@@ -16,9 +16,7 @@ function SEOManual() {
     <div>
       <Slider {...settings}>
         <div className="slider text-2xl">메뉴얼인디</div>
-        <div className="slider"> 22222 </div>
-        <div className="slider">33</div>
-        <div className="slider">44</div>
+        <div className="slider">출처</div>
       </Slider>
     </div>
   );

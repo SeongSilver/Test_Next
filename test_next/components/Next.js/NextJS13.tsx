@@ -13,11 +13,10 @@ function NextJS13() {
   };
 
   return (
-    <div className="w-full h-[65vh] bg-slate-400">
+    <div className="w-full h-[65vh]">
       <Slider {...settings}>
         <div className="slider text-2xl">업데이트 내용</div>
-        <div className="slider"> 22222 </div>
-        <div className="slider">44</div>
+        <div className="slider">출처</div>
       </Slider>
     </div>
   );

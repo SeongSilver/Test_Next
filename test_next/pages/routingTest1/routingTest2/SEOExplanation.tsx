@@ -9,12 +9,12 @@ function SEOExplain() {
     setCategory('introduce');
   };
   const changeManual = () => {
-    setCategory('manual');
+    setCategory('method');
   };
 
   return (
     <div className="w-[100vw] h-[100vh] p-16">
-      <header className="w-full text-3xl font-bold">
+      <header className="w-full text-3xl font-bold text-center">
         SEO(Search Engine Optimization) : 검색 엔진 최적화
       </header>
       <div className="mt-16 flex w-full justify-evenly">
@@ -26,7 +26,7 @@ function SEOExplain() {
           SEO방법
         </span>
       </div>
-      <main className="mt-4 p-8">
+      <main className="mt-4">
         {category === 'introduce' ? <SEOIntroduce /> : <SEOManual />}
       </main>
     </div>
