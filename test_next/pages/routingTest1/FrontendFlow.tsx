@@ -23,12 +23,23 @@ function FrontendFlow() {
             <br />
             물리적인 제약 없이 정보에 접근할 수 있게 됨
           </p>
-          <Image
+          <a
+            href="http://info.cern.ch/hypertext/WWW/TheProject.html"
+            target="blank"
+          >
+            <Image
+              src="/image/internetIcon.svg"
+              alt="최초로 게시된 월드와이드웹의 소개 웹페이지 메인사진"
+              width={300}
+              height={30}
+            />
+          </a>
+          {/* <Image
             src="/firstweb.webp"
             alt="최초로 게시된 월드와이드웹의 소개 웹페이지 메인사진"
             width={800}
             height={30}
-          />
+          /> */}
         </div>
       </div>
       <div>
