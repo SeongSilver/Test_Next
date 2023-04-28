@@ -14,7 +14,7 @@ function NextExplain() {
 
   return (
     <div className="w-[100vw] h-[100vh] p-16">
-      <header className="w-full text-3xl font-bold">Next.js</header>
+      <header className="w-full text-3xl font-bold text-center">Next.js</header>
       <div className="mt-16 flex w-full justify-evenly">
         <span className="categoryBtn " onClick={changeNext}>
           Next.js
@@ -24,9 +24,11 @@ function NextExplain() {
           Next.js v.13 업데이트
         </span>
       </div>
-      <main className="mt-4 p-8">
-        {category === 'next' ? <NextJS /> : <NextJS13 />}
-      </main>
+      <div className="flex justify-center">
+        <main className="mt-4">
+          {category === 'next' ? <NextJS /> : <NextJS13 />}
+        </main>
+      </div>
     </div>
   );
 }
