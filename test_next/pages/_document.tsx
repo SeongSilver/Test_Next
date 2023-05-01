@@ -8,6 +8,7 @@ export default function Document() {
         as="style"
         href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css"
       />
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
       <title>디윅스 프론트엔드</title>
       <Head>
         <meta name="description" content="디윅스 프론트엔드 페이지입니다." />
