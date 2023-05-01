@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import SEOIntroduce from '@/components/SEO/SEOIntroduce';
 import SEOManual from '@/components/SEO/SEOManual';
+import { useRouter } from 'next/router';
 
 function SEOExplain() {
   const [category, setCategory] = useState<string>('introduce');
+
+  const router = useRouter();
 
   const changeIntroduce = () => {
     setCategory('introduce');
@@ -14,6 +17,14 @@ function SEOExplain() {
 
   return (
     <div className="w-[100vw] h-[100vh] p-16">
+      <span
+        className="cursor-pointer"
+        onClick={() => {
+          router.back();
+        }}
+      >
+        뒤로
+      </span>
       <header className="w-full text-3xl font-bold text-center">
         SEO(Search Engine Optimization) : 검색 엔진 최적화
       </header>
