@@ -48,9 +48,7 @@ export default function Home() {
           className="group rounded-lg border border-transparent mx-8 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            프론트엔드 웹개발의 흐름
-          </h2>
+          <h2 className={`mb-3 text-2xl font-semibold`}>웹개발의 흐름</h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
             프론트엔드 웹개발의 흐름
           </p>
