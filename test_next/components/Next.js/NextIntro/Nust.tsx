@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-function VueNust() {
+function Nuxt() {
   return (
     <div>
       <header>
@@ -27,4 +27,4 @@ function VueNust() {
   );
 }
 
-export default VueNust;
+export default Nuxt;
