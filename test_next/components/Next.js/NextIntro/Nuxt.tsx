@@ -7,7 +7,7 @@ function Nuxt() {
       <header>
         <h1 className="text-xl text-center font-semibold mb-4">Nuxt.js</h1>
       </header>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center mt-16">
         <div className="flex items-center justify-center w-full space-x-6">
           <Image
             src="/image/logo/nextjs.png"
