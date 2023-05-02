@@ -42,12 +42,6 @@ function NextFunction() {
       <div className="slider">
         <NextCodeSpliting />
       </div>
-      <div className="slider">
-        <NextTSTailwind />
-      </div>
-      <div className="slider">
-        <NextVercel />
-      </div>
     </SliderContainer>
   );
 }
