@@ -24,6 +24,12 @@ function index() {
         <h1 className="text-xl font-bold">파일 기반 라우팅</h1>
         <Link
           className="contentHover p-4 rounded-[10px] m-8"
+          href="/dweax/soohangsaupboo/frontend/Changpyo"
+        >
+          류창표
+        </Link>
+        <Link
+          className="contentHover p-4 rounded-[10px] m-8"
           href="/dweax/soohangsaupboo/frontend/Seongeun"
         >
           유성은

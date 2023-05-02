@@ -18,9 +18,6 @@ function NextCategory() {
           Code Spliting
         </li>
         <li className="w-[20vw] h-[20vh] text-center text-xl flex items-center justify-center bg-white p-8 m-8 rounded-[20px] hover:bg-slate-600 hover:text-white ease-in-out duration-300 cursor-pointer">
-          typescript, tailwind CSS 지원
-        </li>
-        <li className="w-[20vw] h-[20vh] text-center text-xl flex items-center justify-center bg-white p-8 m-8 rounded-[20px] hover:bg-slate-600 hover:text-white ease-in-out duration-300 cursor-pointer">
           Vercel 배포
         </li>
       </ul>

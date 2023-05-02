@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
+import Image from 'next/image';
 
 function iundex() {
   const router = useRouter();
@@ -17,8 +18,17 @@ function iundex() {
       >
         arrow_back_ios
       </span>
-      <div className="mt-32 flex justify-center items-center text-xl">
+      <div className="mt-16 flex justify-center items-center text-xl">
         수행사업부
+      </div>
+      <div className="mt-16 flex justify-center items-center text-xl">
+        <Image
+          src="/image/picture.jpeg"
+          alt="사진"
+          width={400}
+          height={600}
+          className="shadow-2xl"
+        />
       </div>
       <div className="mt-8 flex justify-center items-center text-xl">
         <Link
