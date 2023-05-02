@@ -8,7 +8,7 @@ function NextDynamicRoutes2() {
       <div className="flex justify-evenly">
         <div className="w-1/2 flex flex-col justify-center pl-8">
           <h1 className="text-xl font-semibold mb-4">
-            <Link href="/dweax">동적 라우팅(Dynamic Routing)</Link>
+            <Link href="/유성은">동적 라우팅(Dynamic Routing)</Link>
           </h1>
           <p>- 부여받은 path 값에 따라 동적으로 라우팅하는 것</p>
           <p>
