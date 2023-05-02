@@ -24,7 +24,7 @@ function NextLink2() {
         <div className="w-[22vw] h-[20vh] m-4 p-4 bg-white rounded-[15px] shadow-xl overflow-auto">
           <h1>2. passHref (option / 기본값 : false)</h1>
           <br />
-          <p>next Link에서 하위 컴포넌트로 href 속성을 전달해주는 역할</p>
+          <p>Link에서 하위 컴포넌트로 href 속성을 전달해주는 역할</p>
           <p>
             (예) <br />
             &lt;Link href=&#123;&#123; pathname: 'post', query: &#123; id:
