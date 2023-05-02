@@ -1,25 +1,25 @@
 import React from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
-
+import SliderContainer from '../common/SliderContainer';
+import NextIntro from './NextIntro/NextIntro';
+import NextIntro2 from './NextIntro/NextIntro2';
+import Nust from './NextIntro/Nust';
+import NextCategory from './NextIntro/NextCategory';
 function NextJS() {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-
   return (
-    <div className="w-full h-[65vh] bg-slate-400">
-      <Slider {...settings}>
-        <div className="slider text-2xl">Next.js?</div>
-        <div className="slider"> 22222 </div>
-        <div className="slider">44</div>
-      </Slider>
-    </div>
+    <SliderContainer>
+      <div className="slider">
+        <NextIntro />
+      </div>
+      <div>
+        <NextIntro2 />
+      </div>
+      <div className="slider">
+        <Nust />
+      </div>
+      <div className="slider">
+        <NextCategory />
+      </div>
+    </SliderContainer>
   );
 }
 

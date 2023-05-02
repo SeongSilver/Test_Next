@@ -35,7 +35,7 @@ export default function Home() {
       </div>
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <Link
-          href="Introduce"
+          href="/Introduce"
           className="group rounded-lg border border-transparent mx-8 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
@@ -43,7 +43,7 @@ export default function Home() {
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>소개와 목차</p>
         </Link>
         <Link
-          href="/routingTest1/FrontendFlow
+          href="/FrontendFlow
           "
           className="group rounded-lg border border-transparent mx-8 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -54,7 +54,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/routingTest1/routingTest2/SEOExplanation"
+          href="/SEOExplanation"
           className="group rounded-lg border border-transparent mx-8 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >
@@ -64,7 +64,7 @@ export default function Home() {
           </p>
         </Link>
         <Link
-          href="/routingTest3/NextExplanation"
+          href="/NextExplanation"
           className="group rounded-lg border border-transparent mx-8 px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
         >

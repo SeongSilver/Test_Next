@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
 import SEOIntroduce from '@/components/SEO/SEOIntroduce';
 import SEOManual from '@/components/SEO/SEOManual';
+import { useRouter } from 'next/router';
 
 function SEOExplain() {
   const [category, setCategory] = useState<string>('introduce');
+
+  const router = useRouter();
 
   const changeIntroduce = () => {
     setCategory('introduce');
@@ -17,7 +20,12 @@ function SEOExplain() {
       <header className="w-full text-3xl font-bold text-center">
         SEO(Search Engine Optimization) : 검색 엔진 최적화
       </header>
-      <div className="mt-16 flex w-full justify-evenly">
+      <span className="material-symbols-outlined cursor-pointer hover:text-white ease-in-out duration-300" onClick={() => {
+                router.back();
+              }}>
+      arrow_back_ios
+      </span>
+      <div className="mt-4 flex w-full justify-evenly">
         <span className="categoryBtn " onClick={changeIntroduce}>
           SEO란?
         </span>
@@ -26,9 +34,11 @@ function SEOExplain() {
           SEO방법
         </span>
       </div>
-      <main className="mt-4">
-        {category === 'introduce' ? <SEOIntroduce /> : <SEOManual />}
-      </main>
+      <div className="flex justify-center">
+        <main className="mt-4">
+          {category === 'introduce' ? <SEOIntroduce /> : <SEOManual />}
+        </main>
+      </div>
     </div>
   );
 }
