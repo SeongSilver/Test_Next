@@ -2,14 +2,20 @@ import React from 'react';
 
 function NextIntro2() {
   return (
-    <div className="w-full h-full flex justify-evenly items-center">
+    <div className="w-full h-full flex justify-evenly items-center mt-[15vh]">
       <div className="flex flex-col items-center text-center">
         <h1 className="text-xl font-bold">React</h1>
+        <br />
         <p>+</p>
+        <br />
         <h1 className="text-xl font-bold">Express.js</h1>
+        <br />
         <p>+</p>
+        <br />
         <h1 className="text-xl font-bold">React-Router-Dom</h1>
+        <br />
         <p>+</p>
+        <br />
         <h1 className="text-xl font-bold">Server Side Rendering</h1>
       </div>
       <div>

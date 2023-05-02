@@ -6,14 +6,14 @@ function NextIntro() {
     <div className="w-full h-full flex justify-evenly items-center">
       <div className="flex items-center">
         <Image
-          src="/image/Next.js/nextjs.png"
+          src="/image/logo/nextjs.png"
           alt="nextjs.png"
-          width={400}
+          width={300}
           height={300}
         />
       </div>
       <div>
-        <p>
+        <p className="text-xl">
           서버 사이드 렌더링, 정적 웹 페이지 생성 등<br />
           리액트 기반 웹 애플리케이션 기능들을 가능케 하는
           <br />
