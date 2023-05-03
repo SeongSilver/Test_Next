@@ -1,23 +1,17 @@
 import React from 'react';
 import Link from 'next/link';
-import { useRouter } from 'next/router';
 
 function index() {
-  const router = useRouter();
-
   return (
     <div className="w-[100vw] h-[100vh] overflow-hidden">
       <header className="w-full text-3xl font-bold text-center mt-32">
         파일 기반 라우팅
       </header>
-      <span
-        className="material-symbols-outlined cursor-pointer hover:text-white ease-in-out duration-300 ml-16"
-        onClick={() => {
-          router.back();
-        }}
-      >
-        arrow_back_ios
-      </span>
+      <Link href="/NextExplanation">
+        <span className="material-symbols-outlined cursor-pointer hover:text-white ease-in-out duration-300 ml-16">
+          arrow_back_ios
+        </span>
+      </Link>
       <div className=" flex justify-center items-center text-xl mt-32">
         <div className="contentHover m-12 p-4 rounded-[10px]">
           <Link href="http://www.dweax.com">디윅스 홈페이지</Link>
