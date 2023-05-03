@@ -9,8 +9,6 @@ import NextDynamicRoutes2 from './Routes/NextDynamicRoutes2';
 import NextLink from './Link/NextLink';
 import NextLink2 from './Link/NextLink2';
 import NextCodeSpliting from './NextCodeSpliting';
-import NextTSTailwind from './NextTSTailwind';
-import NextVercel from './NextVercel';
 
 function NextFunction() {
   return (
