@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ChangPyo() {
+function Gahyun() {
   return (
     <div className="w-[100vw] h-[100vh] flex justify-center items-center text-2xl font-bold">
-      ChangPyo
+      Gahyun
     </div>
   );
 }
 
-export default ChangPyo;
+export default Gahyun;
