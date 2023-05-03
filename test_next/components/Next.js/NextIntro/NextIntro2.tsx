@@ -20,14 +20,21 @@ function NextIntro2() {
       </div>
       <div>
         <p>
-          Next.js는 여러기술을 섞어놓은 영리한 기술이다. - 생활코딩 -<br />
+          <b className="text-xl">
+            Next.js는 여러기술을 섞어놓은 영리한 기술이다. - 생활코딩 -
+          </b>
+          <br />
+          <br />
           <br />
           Virtual Dom을 사용, 성능 개선과 빠른 렌더링이 가능한 React
+          <br />
           <br />
           Node.js를 활용해서 HTTP요청 및 응답 처리 등을 빠르고 간편하게 사용할
           수 있는 Express.js
           <br />
-          SPA에서 브라우저의 라우팅을 관리하는 React-Router-Dom
+          <br />
+          React에서 브라우저의 라우팅을 관리하는 React-Router-Dom
+          <br />
           <br />
           Server Side Rendering을 지원하는 웹 프레임워크
         </p>
