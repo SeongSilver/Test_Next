@@ -3,7 +3,7 @@ import Image from 'next/image';
 function NextLink() {
   return (
     <div>
-      <heade r className="flex items-center justify-center mb-12">
+      <header className="flex items-center justify-center mb-12">
         <h1 className="text-xl font-semibold mr-16 text-center">
           Next.js에서 페이지를 이동하는 3가지 방법
         </h1>
@@ -13,7 +13,7 @@ function NextLink() {
           width={450}
           height={50}
         />
-      </heade>
+      </header>
       <div className="flex justify-evenly">
         <div className="w-[22vw] h-[35vh] p-4 bg-white rounded-[15px] shadow-xl">
           <h1 className="font-semibold my-2 text-center">Link 태그</h1>
