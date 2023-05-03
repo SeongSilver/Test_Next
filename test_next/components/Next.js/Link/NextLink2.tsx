@@ -5,7 +5,7 @@ function NextLink2() {
     <div>
       <header className="flex items-center justify-center mb-12">
         <h1 className="text-xl font-semibold mr-16 text-center">
-          &lt;Link&gt; 태그의 property
+          Link 태그의 property
         </h1>
       </header>
       <div className="flex justify-evenl flex-wrap">
@@ -13,22 +13,22 @@ function NextLink2() {
           <h1>href (필수)</h1>
           <br />
           <p>이동할 경로 혹은 URL</p>
-          <p>(예) &lt;Link href="이동할 경로 혹은 URL"&gt;</p>
+          <p>(예) Link href="이동할 경로 혹은 URL"</p>
         </div>
         <div className="w-[22vw] h-[20vh] m-4 p-4 bg-white rounded-[15px] shadow-xl">
           <h1>1. as (option)</h1>
           <br />
           <p>브라우저 창에 표시될 URL</p>
-          <p>(예) &lt;Link href="/" as="브라우저 주소창에 표시될 URL"&gt;</p>
+          <p>(예) Link href="/" as="브라우저 주소창에 표시될 URL"</p>
         </div>
         <div className="w-[22vw] h-[20vh] m-4 p-4 bg-white rounded-[15px] shadow-xl overflow-auto">
           <h1>2. passHref (option / 기본값 : false)</h1>
           <br />
-          <p>next Link에서 하위 컴포넌트로 href 속성을 전달해주는 역할</p>
+          <p>Link에서 하위 컴포넌트로 href 속성을 전달해주는 역할</p>
           <p>
             (예) <br />
-            &lt;Link href=&#123;&#123; pathname: 'post', query: &#123; id:
-            post_id &#125; &#125;&#125; passHref&gt;
+            Link href=&#123;&#123; pathname: 'post', query: &#123; id: post_id
+            &#125; &#125;&#125; passHref&gt;
             <br />
             &ensp;&lt;ChildATag&gt;A태그&lt;/ChildATag&gt;// 자식태그가 styled
             component a태그인 경우

@@ -3,7 +3,7 @@ import Image from 'next/image';
 function NextLink() {
   return (
     <div>
-      <header className="flex items-center justify-center mb-12">
+      <heade r className="flex items-center justify-center mb-12">
         <h1 className="text-xl font-semibold mr-16 text-center">
           Next.js에서 페이지를 이동하는 3가지 방법
         </h1>
@@ -13,13 +13,12 @@ function NextLink() {
           width={450}
           height={50}
         />
-      </header>
+      </heade>
       <div className="flex justify-evenly">
         <div className="w-[22vw] h-[35vh] p-4 bg-white rounded-[15px] shadow-xl">
-          <h1 className="font-semibold my-2 text-center">&lt;Link&gt; 태그</h1>
+          <h1 className="font-semibold my-2 text-center">Link 태그</h1>
           <p>
-            - &lt;a&gt; 태그를 생성하기 때문에 웹사이트가 크롤링되어{' '}
-            <b>SEO에 유리</b>
+            - a 태그를 생성하기 때문에 웹사이트가 크롤링되어 <b>SEO에 유리</b>
           </p>
           <p>
             - <b>동적 라우팅 사용 시</b> map() 소드를 이용해 length만큼 생성 후
@@ -37,27 +36,24 @@ function NextLink() {
           <p>- next/router의 useRouter를 선언 후 사용</p>
           <p>- router.push의 경우 window.location과 비슷하게 동작</p>
           <p>
-            - &lt;a&gt; 태그를 만들지 않기 때문에 해당링크는 크롤링되지
-            않아&nbsp;
-            <b>SEO에 좋지 않음</b>
+            - a 태그를 만들지 않기 때문에 해당링크는 크롤링되지 않아
+            <b> SEO에 좋지 않음</b>
           </p>
           <p>- onClick과 같은 이벤트 핸들러와 같이 사용</p>
         </div>
         <div className="w-[22vw] h-[35vh] p-4 bg-white rounded-[15px] shadow-xl">
-          <h1 className="font-semibold my-2 text-center">&lt;a&gt; 태그</h1>
+          <h1 className="font-semibold my-2 text-center">a 태그</h1>
           <p>
             - 순수 HTML요소로, 사용자를 새 페이지의 url로 이동시키는 하이퍼링크
             생성
           </p>
-          <p>
-            - &lt;a&gt; 태그를 사용해서 페이지 이동시 페이지가 완전히 새로고침됨
-          </p>
+          <p>- a 태그를 사용해서 페이지 이동시 페이지가 완전히 새로고침됨</p>
         </div>
       </div>
       <div>
         <p className="text-xl font-semibold text-center mt-8">
-          보통의 경우 &lt;Link&gt; 태그를 사용하는 것이 좋으며, SEO에 상관없이
-          SPA처럼 동작하게 하고 싶을 때엔 router.push를 사용한다
+          보통의 경우 Link 태그를 사용하는 것이 좋으며, SEO에 상관없이 SPA처럼
+          동작하게 하고 싶을 때엔 router.push를 사용한다
         </p>
       </div>
     </div>
