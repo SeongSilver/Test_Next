@@ -11,9 +11,6 @@ function Introduce() {
           >
             발표자 소개
           </h1>
-          <a href="#intro2">
-            <button>intro</button>
-          </a>
         </div>
         <div className="flex h-screen justify-center items-center space-x-3">
           <div className="shadow-lg bg-white rounded-md p-5 w-1/3 mb-10">
